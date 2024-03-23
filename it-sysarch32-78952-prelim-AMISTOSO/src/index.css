@@ -1,0 +1,86 @@
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination button.active {
+  background-color: #45a049;
+}
+
+.pagination button:hover:not(.active) {
+  background-color: #45a049;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.pagination button:first-child {
+  margin-right: 10px;
+}
+
+.pagination button:last-child {
+  margin-left: 10px;
+}
+
+.pokemon {
+  display: inline-block;
+  width: 200px; 
+  margin: 10px; 
+  border: 1px solid #ccc; 
+  padding: 10px;
+}
+
+.pokemon img {
+  width: 100%; 
+  height: auto; 
+}
+
+.pokemon p {
+  margin: 5px 0;
+}
+
+.language-buttons {
+  margin-bottom: 20px;
+}
+
+.language-buttons button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.language-buttons button.active {
+  background-color: #45a049; 
+}
+
+.language-buttons button:hover {
+  background-color: #45a049;
+}
+
+.language-buttons button:focus {
+  outline: none; 
+}
+
+
+
